@@ -1,3 +1,22 @@
+# Instruções para Acessar o SQL no pgAdmin
+## 1. Abrir o pgAdmin
+  - Inicie o pgAdmin no seu computador onde o PostgreSQL está instalado.
+    
+## 2. Conectar ao Servidor:
+  - No painel à esquerda, localize o servidor do PostgreSQL e clique duas vezes para se conectar.
+    
+## 3. Criar um Banco de Dados:
+  - Com o servidor conectado, clique com o botão direito em "Databases" (Bancos de Dados) e selecione "Create" (Criar) > "Database" (Banco de Dados).
+  - Nomeie o banco de dados como 'gerenciamento' e clique em "Save" (Salvar).
+    
+## 5. Abrir o Editor de Consultas:
+  - Clique com o botão direito no banco de dados 'gerenciamento' e selecione "Query Tool" (Ferramenta de Consulta) para abrir o editor.
+    
+## 6. Importar o DUMP:
+  - Cole o conteúdo do seu DUMP SQL no editor.
+  - Clique no ícone de execução (play) ou pressione F5 para executar o script.
+
+---------
 # Instruções para Compilação e Execução da Aplicação
 
 ## Pré-requisitos
