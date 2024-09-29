@@ -33,6 +33,13 @@
         - Principal.java
         - [outras classes, modelos, controladores, etc.]
 
+## Conexão do Banco de Dados
+1. Certifique-se de que o banco de dados está em funcionamento e que as tabelas estão criadas conforme especificado.
+2. Configure a conexão com o banco de dados no código, verificando se as credenciais e a URL estão corretas.
+   - Abra o Arquivo `Conexao.java` e na linha 21 altere o usuário para seu usuário do banco de dados.
+   - Na linha 22, altere a senha para a sua senha do banco de dados.
+   - Na linha 23, depois de `localhost:5432/` Substituia o nome pelo nome da sua base de dados (ex: gerenciamento).
+     
 ## Passos para Compilação
 1. Abra sua IDE e carregue o projeto.
 2. Verifique se todas as dependências estão configuradas corretamente.
@@ -42,10 +49,6 @@
 1. Após a compilação localize a classe `Principal` que contém o método `main`.
 2. Clique com o botão direito na classe `Principal` e escolha "Executar" ou "Run".
 3. Siga as instruções apresentadas no console para interagir com a aplicação.
-
-## Configuração do Banco de Dados
-1. Certifique-se de que o banco de dados está em funcionamento e que as tabelas estão criadas conforme especificado.
-2. Configure a conexão com o banco de dados no código, verificando se as credenciais e a URL estão corretas.
 
 ## Exemplos de Uso
 1. Cadastrar uma editora.
